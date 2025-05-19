@@ -4,7 +4,7 @@
         <div class="footer-column">
             <h4>Nguồn</h4>
             <ul>
-                <li>Tìm kiếm 1 cửa hàng</li>
+                <li><a href="{{route('store.locator')}}">Tìm kiếm 1 cửa hàng</a></li>
                 <li>Trở thành thành viên</li>
                 <li>Công cụ tìm giày chạy bộ</li>
                 <li>Gửi đến chúng tôi đánh giá</li>
