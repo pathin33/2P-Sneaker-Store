@@ -1,0 +1,58 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap');
+
+        :root {
+            --primary-red: #dc2626;
+            --hover-red: #b91c1c;
+            --dark-gray: #1f2937;
+            --light-gray: #f3f4f6;
+        }
+
+        .header {
+            font-family: 'Barlow Condensed', sans-serif;
+            letter-spacing: 0.03em;
+        }
+
+        .nav-link {
+            position: relative;
+            padding-bottom: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-red);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-red);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .cart-badge,
+        .wishlist-badge {
+            font-size: 0.65rem;
+            min-width: 1.25rem;
+        }
+
+        .dropdown-menu {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.25s ease;
+        }
+
+        .group:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
