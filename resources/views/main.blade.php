@@ -8,6 +8,7 @@
     @vite('resources/css/app.css')    {{--cấu hình css tailwind--}}
     @vite('resources/css/header.css')  {{-- cấu hình css thuần cho header và footer nhé --}}
     @vite('resources/css/footer.css')
+    @vite('resources/js/app.js')
 </head>
 <body>
   @include('layouts.header') {{--import header và footer--}}
