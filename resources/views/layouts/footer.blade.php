@@ -1,51 +1,76 @@
-<footer>
-    <footer class="footer">
-    <div class="footer-columns">
-        <div class="footer-column">
-            <h4>Nguồn</h4>
-            <ul>
-                <li><a href="{{route('store.locator')}}">Tìm kiếm 1 cửa hàng</a></li>
-                <li>Trở thành thành viên</li>
-                <li>Công cụ tìm giày chạy bộ</li>
-                <li>Gửi đến chúng tôi đánh giá</li>
-            </ul>
+<footer class="bg-white text-gray-700 font-sans border-t border-gray-200">
+    <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            <!-- Về Chúng Tôi -->
+            <div class="footer-column">
+                <h4 class="text-black font-bold text-lg mb-4">Về Chúng Tôi</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-black transition-colors">Giới thiệu 2PSS Sneaker</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Tin tức & Sự kiện</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Tuyển dụng</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Liên hệ</a></li>
+                </ul>
+            </div>
+            <!-- Hỗ Trợ Khách Hàng -->
+            <div class="footer-column">
+                <h4 class="text-black font-bold text-lg mb-4">Hỗ Trợ Khách Hàng</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-black transition-colors">Câu hỏi thường gặp</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Chính sách đổi trả</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Chính sách bảo hành</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Hướng dẫn mua hàng</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Phương thức thanh toán</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Vận chuyển & giao nhận</a></li>
+                </ul>
+            </div>
+            <!-- Dịch Vụ & Tiện Ích -->
+            <div class="footer-column">
+                <h4 class="text-black font-bold text-lg mb-4">Dịch Vụ & Tiện Ích</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-black transition-colors">Tìm cửa hàng gần bạn</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Kiểm tra đơn hàng</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Ưu đãi thành viên</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Gửi đánh giá sản phẩm</a></li>
+                </ul>
+            </div>
+            <!-- Chính Sách & Điều Khoản -->
+            <div class="footer-column">
+                <h4 class="text-black font-bold text-lg mb-4">Chính Sách & Điều Khoản</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-black transition-colors">Điều khoản sử dụng</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Chính sách bảo mật</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Chính sách bán hàng</a></li>
+                    <li><a href="#" class="hover:text-black transition-colors">Bản quyền & trách nhiệm</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-column">
-            <h4>Help</h4>
-            <ul>
-                <li>Nhận sự trợ giúp</li>
-                <li>Trạng thái đặt hàng</li>
-                <li>Giao hàng</li>
-                <li>Hoàn trả</li>
-                <li>Tùy chọn thanh toán</li>
-                <li>Liên lạc với chúng tôi</li>
-            </ul>
-        </div>
-        <div class="footer-column">
-            <h4>Company</h4>
-            <ul>
-                <li>Về 2P Sneaker Store</li>
-                <li>Tin tức</li>
-                <li>Sự nghiệp</li>
-                <li>Đầu tư</li>
-                <li>Phát triển bền vững</li>
-                <li>Tác động</li>
-                <li>Cảnh báo về những mối quan ngại</li>
-            </ul>
+        
+        <!-- Footer Bottom -->
+        <div class="border-t border-gray-200 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-sm text-gray-500">© 2025 2PSS Sneaker, Inc. Tất cả các quyền được bảo lưu</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#" class="text-sm text-gray-600 hover:text-black transition-colors">Hướng dẫn mua hàng</a>
+                    
+                    <a href="#" class="text-sm text-gray-600 hover:text-black transition-colors">Điều khoản sử dụng</a>
+                    <a href="#" class="text-sm text-gray-600 hover:text-black transition-colors flex items-center gap-2">
+                        Liên hệ
+                        <span class="flex gap-2 ml-2">
+                            <a href="https://facebook.com" target="_blank" rel="noopener" class="hover:opacity-80">
+                                <img src="{{ asset('assets/icons/icons8-facebook-48.png') }}" alt="Facebook" class="w-5 h-5 inline">
+                            </a>
+                            <a href="https://instagram.com" target="_blank" rel="noopener" class="hover:opacity-80">
+                                <img src="{{ asset('assets/icons/icons8-instagram-64.png') }}" alt="Instagram" class="w-5 h-5 inline">
+                            </a>
+                            <a href="https://x.com" target="_blank" rel="noopener" class="hover:opacity-80">
+                                <img src="{{ asset('assets/icons/icons8-x-50.png') }}" alt="X" class="w-5 h-5 inline">
+                            </a>
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="footer-bottom">
-        <div class="footer-left">
-            <p>© 2025 2P Sneaker Store, Inc. Tất cả các quyền được bảo lưu</p>
-        </div>
-        <div class="footer-links">
-            <a href="#">Hướng dẫn</a>
-            <a href="#">Điều khoản bán hàng</a>
-            <a href="#">Điều khoản sử dụng</a>
-            <a href="#">Chính sách quyền riêng tư của 2P Sneaker Store</a>
-        </div>
-    </div>
-</footer>
-
 </footer>

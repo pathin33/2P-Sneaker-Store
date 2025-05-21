@@ -6,7 +6,7 @@ use App\Http\Controllers\footer\StoreController;
 
 // route gọi ra giao diện chính
 Route::get('/', function () {
-    return view('main');
+    return view('home');
 });
 
 // phần này route của footer nhé
