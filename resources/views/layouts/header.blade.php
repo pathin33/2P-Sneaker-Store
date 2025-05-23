@@ -126,7 +126,7 @@
                 </a>
 
                 <!-- Account -->
-                <a href="/account"
+                <a href="/login"
                     class="p-1.5 rounded-full hover:bg-gray-100 transition-colors duration-200 hidden md:block">
                     <img src="{{ asset('assets/icons/person.png') }}" alt="Tài khoản" class="h-5 w-5 md:h-6 md:w-6">
                 </a>
@@ -174,8 +174,7 @@
                         <div class="grid grid-cols-2 gap-2">
                             <a href="/brands/nike" class="text-sm text-gray-700 hover:text-red-600">Nike</a>
                             <a href="/brands/adidas" class="text-sm text-gray-700 hover:text-red-600">Adidas</a>
-                            <a href="/brands/newbalance" class="text-sm text-gray-700 hover:text-red-600">New
-                                balance</a>
+                            <a href="/brands/newbalance" class="text-sm text-gray-700 hover:text-red-600">New balance</a>
                             <a href="/brands/puma" class="text-sm text-gray-700 hover:text-red-600">Puma</a>
                             <a href="/brands/converse" class="text-sm text-gray-700 hover:text-red-600">Converse</a>
                             <a href="/brands/vans" class="text-sm text-gray-700 hover:text-red-600">Vans</a>
@@ -195,7 +194,7 @@
 
             <!-- Mobile Account Links -->
             <div class="pt-2 border-t border-gray-200 mt-2">
-                <a href="/account"
+                <a href="/login"
                     class="block py-2 text-gray-900 font-semibold text-lg hover:text-red-600 transition-colors duration-200">TÀI
                     KHOẢN</a>
                 <a href="/wishlist"

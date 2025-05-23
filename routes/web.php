@@ -6,10 +6,21 @@ use App\Http\Controllers\footer\StoreController;
 
 // route gọi ra giao diện chính
 Route::get('/', function () {
-    return view('home');
+    return view('/pages.home');
+});
+Route::get('/login', function () {
+    return view('/auth.login');
+});
+Route::get('/register', function () {
+    return view('/auth.register');
+});
+Route::get('/forgotpassword', function () {
+    return view('/auth.forgot-password');
 });
 
+
+
 // phần này route của footer nhé
-Route::get('/store-locator', [StoreController::class, 'index'])
+Route::get('/storelocator', [StoreController::class, 'index'])
 ->name('store.locator');
 

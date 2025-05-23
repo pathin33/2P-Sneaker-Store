@@ -27,9 +27,13 @@
             <div class="footer-column">
                 <h4 class="text-black font-bold text-lg mb-4">Dịch Vụ & Tiện Ích</h4>
                 <ul class="space-y-2">
+<<<<<<< HEAD
                     <li><a href="{{ route('store.locator') }}" class="hover:text-black transition-colors">
                             Tìm cửa hàng gần bạn
                         </a></li>
+=======
+                    <li><a href="/storelocator" class="hover:text-black transition-colors">Tìm cửa hàng gần bạn</a></li>
+>>>>>>> 94a573e5d13243029d4b18463367eec658ce80b2
                     <li><a href="#" class="hover:text-black transition-colors">Kiểm tra đơn hàng</a></li>
                     <li><a href="#" class="hover:text-black transition-colors">Ưu đãi thành viên</a></li>
                     <li><a href="#" class="hover:text-black transition-colors">Gửi đánh giá sản phẩm</a></li>

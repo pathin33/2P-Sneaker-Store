@@ -16,7 +16,6 @@
 <body>
     @include('layouts.header')
     <main>
-        <!-- Ảnh chính đẹp, hiện đại -->
         <section class="main-banner">
             <img src="{{ asset('assets/images/anh_main.jpg') }}" alt="Main Banner" class="w-full h-full object-cover"
                 loading="eager">
@@ -61,6 +60,7 @@
                 </div>
             </div>
         </section>
+        
     </main>
     @include('layouts.footer')
 </body>
