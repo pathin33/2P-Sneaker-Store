@@ -174,8 +174,7 @@
                         <div class="grid grid-cols-2 gap-2">
                             <a href="/brands/nike" class="text-sm text-gray-700 hover:text-red-600">Nike</a>
                             <a href="/brands/adidas" class="text-sm text-gray-700 hover:text-red-600">Adidas</a>
-                            <a href="/brands/newbalance" class="text-sm text-gray-700 hover:text-red-600">New
-                                balance</a>
+                            <a href="/brands/newbalance" class="text-sm text-gray-700 hover:text-red-600">New balance</a>
                             <a href="/brands/puma" class="text-sm text-gray-700 hover:text-red-600">Puma</a>
                             <a href="/brands/converse" class="text-sm text-gray-700 hover:text-red-600">Converse</a>
                             <a href="/brands/vans" class="text-sm text-gray-700 hover:text-red-600">Vans</a>

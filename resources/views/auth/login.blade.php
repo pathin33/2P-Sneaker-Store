@@ -53,7 +53,7 @@
                         <label for="remember-me" class="ml-2 block text-sm text-gray-700">Ghi nhớ đăng nhập</label>
                     </div>
                     
-                    <a href="#" class="text-sm font-medium text-blue-600 hover:text-blue-500 hover:underline">Quên mật khẩu?</a>
+                    <a href="/forgotpassword" class="text-sm font-medium text-blue-600 hover:text-blue-500 hover:underline">Quên mật khẩu?</a>
                 </div>
                 
                 <button type="submit" class="w-full py-3 px-4 bg-black text-white font-medium rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors">

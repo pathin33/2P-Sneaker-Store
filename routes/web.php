@@ -14,9 +14,13 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('/auth.register');
 });
+Route::get('/forgotpassword', function () {
+    return view('/auth.forgot-password');
+});
+
 
 
 // phần này route của footer nhé
-Route::get('/store-locator', [StoreController::class, 'index'])
+Route::get('/storelocator', [StoreController::class, 'index'])
 ->name('store.locator');
 
